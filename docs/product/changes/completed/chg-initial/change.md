@@ -2,7 +2,7 @@
 id: CHG-INITIAL
 type: product-change
 title: 'Initial product definition from Agreement RAC-2026-01 and Change Request CR-01'
-status: proposed
+status: applied
 base-revision: '0000000'
 operations:
   add:
