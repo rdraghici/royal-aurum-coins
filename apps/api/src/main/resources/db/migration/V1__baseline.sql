@@ -1,0 +1,2 @@
+-- Baseline. The schema starts empty: every table arrives with the task that needs it.
+-- A migration that has reached main is never edited; write the next one (V2__<what>.sql).
