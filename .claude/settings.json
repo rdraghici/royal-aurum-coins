@@ -1,0 +1,68 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/verify.sh *)",
+      "Bash(scripts/verify.sh *)",
+      "Bash(./scripts/format.sh)",
+      "Bash(scripts/format.sh)",
+      "Bash(./mvnw *)",
+      "Bash(pnpm install)",
+      "Bash(pnpm install --frozen-lockfile)",
+      "Bash(pnpm add *)",
+      "Bash(pnpm run *)",
+      "Bash(pnpm --filter *)",
+      "Bash(pnpm exec *)",
+      "Bash(pnpm dev)",
+      "Bash(pnpm verify)",
+      "Bash(pnpm verify:fast)",
+      "Bash(node scripts/lib/check-*)",
+      "Bash(docker compose *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git switch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "ask": [
+      "Bash(pnpm exec prodshape change apply *)",
+      "Bash(pnpm exec prodshape integration *)",
+      "Bash(./scripts/product-accept.sh *)",
+      "Bash(scripts/product-accept.sh *)",
+      "Bash(pnpm tasks:cite *)",
+      "Bash(pnpm run tasks:cite *)",
+      "Bash(node scripts/lib/cite-tasks.mjs *)",
+      "Bash(pnpm dlx *)",
+      "Bash(npx *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(stripe *)",
+      "Bash(gh pr merge *)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.local)",
+      "Read(**/.env.*.local)",
+      "Read(**/.env.production)",
+      "Read(/secrets/**)",
+      "Read(~/.ssh/**)",
+      "Edit(/docs/product/model/**)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/protect-paths.mjs\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

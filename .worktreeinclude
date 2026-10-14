@@ -1,0 +1,4 @@
+# Untracked files copied into each new worktree, so that an agent's worktree can run the app.
+# Same syntax as .gitignore. These files stay out of git.
+.env.local
+.env.*.local

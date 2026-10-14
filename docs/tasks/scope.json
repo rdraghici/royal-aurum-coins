@@ -1,0 +1,26 @@
+{
+  "source": "Agreement RAC-2026-01 v3, Schedule 1 (Parts B and D) and Schedule 4. Phase 2 (Part C and CR-01) is added when its tasks are written.",
+  "phases": {
+    "1": {
+      "B.1(a)": "Homepage with hero and featured coins",
+      "B.1(b)": "BUY section with categories, filtering and sorting",
+      "B.1(c)": "Coin pages with gallery, zoom and the structured record",
+      "B.1(d)": "Sold Archive",
+      "B.1(e)": "SELL area with We Buy and the Marketplace entry point",
+      "B.1(f)": "Content pages and contact form",
+      "B.2(a)": "Unique items, sold on completed purchase",
+      "B.2(b)": "Cart and checkout: card, and bank transfer with reservation",
+      "B.2(c)": "Order management, statuses and emails",
+      "B.2(d)": "Shipping and tax settings; euro prices",
+      "B.3": "Customer accounts and Wishlist",
+      "B.4": "We Buy submissions",
+      "B.5": "New-acquisitions email signup",
+      "B.6": "Administration panel",
+      "B.7": "SEO and technical foundations",
+      "B.8": "Infrastructure: staging, production, backups, HTTPS",
+      "D.1": "Technical documentation (Phase 1 part)",
+      "D.2": "Administration panel user guide (Phase 1 part)",
+      "S4.2": "Initial launch catalogue loaded if supplied in the agreed format"
+    }
+  }
+}

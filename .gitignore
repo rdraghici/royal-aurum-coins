@@ -1,0 +1,28 @@
+node_modules/
+
+# Product Definition as Code: regenerable outputs, never canonical.
+.product/generated/
+.product/cache/
+
+# Verification logs
+.verify/
+
+# Environment files and secrets never enter the repository
+.env
+.env.local
+.env.*.local
+.env.production
+secrets/
+
+# Claude Code: personal settings and agent worktrees
+.claude/settings.local.json
+.claude/worktrees/
+
+# Build output
+target/
+.next/
+dist/
+coverage/
+playwright-report/
+test-results/
+.idea/

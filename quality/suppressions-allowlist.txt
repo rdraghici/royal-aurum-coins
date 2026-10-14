@@ -1,0 +1,4 @@
+# Deliberate exceptions to scripts/lib/check-suppressions.mjs. Edited by a human only.
+# One per line:  <repository-relative path>:<fragment of the allowed line>
+# Example:
+# apps/api/src/main/java/com/royalaurumcoins/api/config/JacksonConfig.java:@SuppressWarnings("unchecked")
