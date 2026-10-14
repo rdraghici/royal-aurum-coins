@@ -10,7 +10,7 @@ covers: ["S4.2"]
 cites: [BR-CAT-002, BR-CAT-003, CON-OPS-001]
 behaviours: []
 depends-on: [T-007, T-008]
-blocked-by: [Q-R7, Q-C11, Q-R14]
+blocked-by: [Q-R7, Q-C11]
 ---
 
 # T-025 — Launch catalogue import

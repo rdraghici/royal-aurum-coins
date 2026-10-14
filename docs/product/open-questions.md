@@ -81,14 +81,14 @@ before an international parcel arrives.
 | Q-R9 | Stripe account state once access is granted (charges enabled, Connect profile, beneficial owners) | none | T-018; Phase 2 | |
 | Q-R10 | .ie redirect rule and TLS mode after the nameserver change | 301 to .com | T-027 | |
 | Q-R13 | Seller account separate from customer account; onboarding complete before listing | proposed: one login, onboarding first | BR-MP-013 · Phase 2 | |
-| Q-R14 | How gold content and weight are stored; whether denomination is its own field | fine gold content in troy ounces and gross weight in grams, as exact decimals (how numismatic references usually quote them); display follows Q-C32 | BR-CAT-002 · T-004, T-025 | |
+| Q-R14 | How gold content and weight are stored; whether denomination is its own field | fine gold content in troy ounces and gross weight in grams, as exact decimals (how numismatic references usually quote them); display follows Q-C32 | BR-CAT-002 · T-004, T-025 | Fine gold content stored in troy ounces, gross weight in grams, both as exact decimals; display format follows Q-C32. Decided 14 Oct 2026. |
 | Q-R15 | Supported browsers and devices | current evergreen browsers, phone and tablet | FR-SEO-001 · T-002, T-023 | |
 | Q-R16 | How the 48-hour reservation after an accepted offer combines with the bank-transfer reservation period | none | BR-OFR-002 · Phase 2 | |
 | Q-R17 | When a bank-transfer purchase counts as completed | when the Client confirms receipt | TERM-COMPLETED-PURCHASE, BR-CAT-001, BR-ORD-007 · T-016 | |
 | Q-R18 | We Buy form fields and limits on photo uploads | none | BR-WB-001 · T-012 | |
-| Q-R19 | Whether a coin can belong to more than one category | exactly one | BR-CAT-003 · T-004 | |
+| Q-R19 | Whether a coin can belong to more than one category | exactly one | BR-CAT-003 · T-004 | A coin belongs to exactly one category. Decided 14 Oct 2026. |
 | Q-R20 | Whether a new account must verify its email address before use | none | UC-REGISTER-AND-SIGN-IN · T-006 (not blocking) | |
-| Q-R21 | Session mechanism shared by the API and server-rendered pages | an HTTP-only, Secure, SameSite cookie issued by the API on the site's own domain | CON-SEC-001 · T-006 | |
+| Q-R21 | Session mechanism shared by the API and server-rendered pages | an HTTP-only, Secure, SameSite cookie issued by the API on the site's own domain | CON-SEC-001 · T-006 | An HTTP-only, Secure, SameSite cookie session issued by the API. Decided 14 Oct 2026. |
 | Q-R22 | Whether the Client edits content pages in the administration panel or sends texts to be put in | none (the Agreement says "populated with texts supplied by the Client") | FR-PAGES-001, CON-OPS-001 · T-013 | |
 
 ## 5. Design decisions and deliverables

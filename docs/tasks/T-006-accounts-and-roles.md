@@ -10,7 +10,7 @@ covers: ["B.3"]
 cites: [UC-REGISTER-AND-SIGN-IN, FR-ACC-001, BR-ACC-001, CON-SEC-001, CON-DATA-001]
 behaviours: [SB-CUSTOMER-RESETS-PASSWORD, SB-CUSTOMER-CANNOT-USE-ADMIN]
 depends-on: [T-004]
-blocked-by: [Q-R21]
+blocked-by: []
 ---
 
 # T-006 — Accounts: registration, sign in, password reset, roles

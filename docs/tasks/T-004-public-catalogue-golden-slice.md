@@ -10,7 +10,7 @@ covers: ["B.1(b)", "B.1(c)"]
 cites: [UC-BROWSE-CATALOGUE, UC-VIEW-COIN, BR-CAT-001, BR-CAT-002, BR-CAT-003, BR-CAT-005, BR-PRC-001, CON-LOCALE-001]
 behaviours: [SB-BROWSE-BY-CATEGORY, SB-UNPUBLISHED-COIN-HIDDEN]
 depends-on: [T-001, T-002, T-003]
-blocked-by: [Q-R14, Q-R19]
+blocked-by: []
 ---
 
 # T-004 — Public catalogue: the reference slice
