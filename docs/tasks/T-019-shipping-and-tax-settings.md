@@ -10,7 +10,7 @@ covers: ["B.2(d)"]
 cites: [BR-ORD-006, BR-PRC-001, CON-OPS-001, CON-LOCALE-001]
 behaviours: []
 depends-on: [T-017]
-blocked-by: [Q-C1, Q-C2, Q-C8]
+blocked-by: []
 ---
 
 # T-019 — Shipping and tax settings
@@ -30,14 +30,13 @@ Checkout applies the shipping zones, rates and tax treatment the Client has inst
 
 ## Scope
 
-- Shipping zones and rates editable in the administration panel.
-- Tax display and calculation as instructed by the Client.
-- Checkout refuses a destination the Client does not serve.
+- Nothing to configure for shipping rates or tax: Royal Aurum ships free and insured, and no tax is added at checkout (BR-ORD-006, BR-PRC-002 in CHG-SHOP-RULES-2).
+- The served countries (BR-ORD-010); checkout refuses a destination outside them (the behaviour is claimed by T-017).
+- The Shipping page states free insured shipping to Ireland and the EU (text with T-013).
 
 ## Open decisions
 
-- Q-C1, Q-C2: zones, rates and insurance.
-- Q-C8: how VAT is reflected. This is the Client's tax decision; do not assume a scheme.
+- Q-C1, Q-C2 and Q-C8 were closed on 15 Oct 2026 (CHG-SHOP-RULES-2). Răzvan to decide whether what remains is folded into T-017 and T-013 or stays a task of its own.
 
 _Outline only. Before starting, expand this into a full specification (see `TEMPLATE.md`) in a
 planning session, citing the rules above._

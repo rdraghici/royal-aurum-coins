@@ -8,9 +8,9 @@ mode: delegate
 review: strict
 covers: ["B.2(b)", "B.2(c)"]
 cites: [UC-PURCHASE-BY-BANK-TRANSFER, BR-ORD-001, BR-ORD-002, BR-ORD-003, BR-ORD-004, BR-ORD-005, BR-ORD-007, BR-ORD-008, BR-PRC-001]
-behaviours: [SB-BANK-TRANSFER-RESERVES-COIN, SB-BANK-TRANSFER-PREFERRED-FOR-HIGH-VALUE, SB-ORDER-EMAILS-SENT]
+behaviours: [SB-BANK-TRANSFER-RESERVES-COIN, SB-BANK-TRANSFER-PREFERRED-FOR-HIGH-VALUE, SB-ORDER-EMAILS-SENT, SB-SHIPPING-ADDRESS-OUTSIDE-SERVED-COUNTRIES-REFUSED, SB-NO-VAT-ADDED-AT-CHECKOUT, SB-GUEST-CHECKOUT-WITH-OPTIONAL-ACCOUNT]
 depends-on: [T-016]
-blocked-by: [Q-C6, Q-C5, Q-C1]
+blocked-by: []
 ---
 
 # T-017 — Cart and bank-transfer checkout
@@ -38,17 +38,15 @@ A buyer puts a coin in the cart, checks out choosing bank transfer, and the coin
 
 ## Scope
 
-- Cart for unique coins; checkout with shipping address and payment-method choice.
-- Bank-transfer order: reservation, transfer instructions, order emails to the customer and the Client.
-- Administration settings for the reservation period and the bank-transfer threshold; the Client's confirmation of receipt.
-- Bank transfer presented as preferred above the threshold.
+- Cart for unique coins; guest checkout with email address, a shipping address in a served country and the choice of payment method; the offer of an account afterwards.
+- The order total is the coin price and nothing else; the coin's VAT treatment is recorded on the order and shown on the confirmation.
+- Bank-transfer order: reservation (default 5 days), transfer instructions, order emails to the customer and the Client.
+- Administration setting for the reservation period; the Client's confirmation of receipt.
+- Both payment methods offered for every coin, bank transfer shown as recommended for higher-value purchases.
 
 ## Open decisions
 
-- Q-C6: guest checkout or account required.
-- Q-C5: the checkout hold (BR-ORD-008 is a draft).
-- Q-C1: shipping countries and rates, needed to show a shipping cost.
-- Q-C3, Q-C4: the default values of the threshold and the reservation period (both are settings, so they do not block).
+- Q-C1 to Q-C6 were closed on 15 Oct 2026 and are carried by CHG-SHOP-RULES-2; cite the applied rules when expanding this task.
 - BR-ORD-007 (the Client confirms receipt) is a draft.
 
 _Outline only. Before starting, expand this into a full specification (see `TEMPLATE.md`) in a

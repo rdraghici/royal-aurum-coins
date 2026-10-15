@@ -11,23 +11,24 @@ uses-terms:
   - TERM-ORDER
   - TERM-VAT-TREATMENT
 provenance:
-  source: "Client's decision by WhatsApp, 15 Oct 2026 (question Q-C8); Agreement RAC-2026-01 v3 (signed 8 Oct 2026), Schedule 1 (B.2(d)) and Clause 3.3"
+  source: "Client's decisions by WhatsApp, 15 Oct 2026 (questions Q-C1, Q-C2, Q-C8); Agreement RAC-2026-01 v3 (signed 8 Oct 2026), Schedule 1 (B.2(d)) and Clause 3.3"
   confidence: high
   recovered-from: documentation
 ---
 
 ## Rule
 
-Every price shown to a customer is the final price. No VAT or other tax is added at checkout:
-the order total is the price of the coins plus shipping. Each coin carries a VAT treatment,
-set by the Client per coin from a list the Client maintains in the administration panel; the
-initial list is the investment-gold exemption, the margin scheme and standard VAT. The
-treatment is shown on the coin page, recorded on the order as it stood when the order was
-placed, and shown on the order confirmation.
+Every price shown to a customer is the final price. No VAT, shipping, insurance or other charge
+is added at checkout: the order total is the coin price and nothing else (shipping and
+insurance are included in the price, BR-ORD-006). Each coin carries a VAT treatment, set by
+the Client per coin from a list the Client maintains in the administration panel; the initial
+list is the investment-gold exemption, the margin scheme and standard VAT. The treatment is
+shown on the coin page, recorded on the order as it stood when the order was placed, and shown
+on the order confirmation.
 
 ## Rationale
 
-The Client's decision of 15 Oct 2026. Customers compare final prices. The VAT position of a
+The Client's decisions of 15 Oct 2026. Customers compare final prices. The VAT position of a
 gold coin depends on the coin (investment gold is exempt; other coins are sold under the margin
 scheme or with VAT), so it is a property of the coin, visible for the buyer's and the
 accountant's benefit. The list must be extendable by the Client without the Provider
@@ -36,7 +37,7 @@ accountant's benefit. The list must be extendable by the Client without the Prov
 ## Examples
 
 A sovereign priced at EUR 850 carries the treatment "Investment-gold exemption". Its page shows
-EUR 850 and the treatment. Checkout charges EUR 850 plus shipping. The order and the order
+EUR 850 and the treatment. Checkout charges EUR 850 and nothing else. The order and the order
 confirmation record "Investment-gold exemption". Later the Client adds a fourth treatment in
 the administration panel and assigns it to another coin.
 

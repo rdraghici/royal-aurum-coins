@@ -8,7 +8,7 @@ applies-to:
 uses-terms:
   - TERM-ORDER
 provenance:
-  source: "Client's decision by WhatsApp, 15 Oct 2026 (the countries part of question Q-C1)"
+  source: "Client's decision by WhatsApp, 15 Oct 2026 (question Q-C1)"
   confidence: high
   recovered-from: documentation
 ---
@@ -32,6 +32,5 @@ the order with that address.
 
 ## Exceptions
 
-Shipping methods, rates and insurance per country are still to be instructed by the Client
-(questions Q-C1 and Q-C2). Marketplace coins (Phase 2) are shipped by their sellers; which
-countries they may ship to has not been discussed.
+Marketplace coins (Phase 2) are shipped by their sellers; which countries they may ship to has
+not been discussed.

@@ -8,19 +8,19 @@ question here is not started until the question is closed.
 (`pnpm exec prodshape change create CHG-…`). An answer from the Client that changes scope follows
 Clause 11 of the Agreement and is confirmed by email.
 
-Status as of 15 Oct 2026: Q-C8, Q-C12, Q-C22, Q-C32, Q-R4, Q-R14, Q-R19 and Q-R21 are closed; the rest are open.
+Status as of 15 Oct 2026: Q-C1 to Q-C6, Q-C8, Q-C12, Q-C22, Q-C32, Q-R4, Q-R14, Q-R19 and Q-R21 are closed; the rest are open.
 The answers of 15 Oct 2026 are carried into the definition by CHG-SHOP-RULES-2.
 
 ## 1. Questions for the Client — Phase 1
 
 | ID | Decision needed | Suggested | Affects | Question to send | Answer |
 | --- | --- | --- | --- | --- | --- |
-| Q-C1 | Shipping countries, methods and rates | none | BR-ORD-006, BR-ORD-010 · T-017, T-019 | "Which countries do you ship to, and what do you charge for shipping to each?" | Countries only: Ireland and the 27 EU member states; no UK, Switzerland or Norway (WhatsApp, 15 Oct 2026; BR-ORD-010 in CHG-SHOP-RULES-2). Methods and rates still open. |
-| Q-C2 | Insurance of own shipments | none | BR-ORD-006 · T-019 | "Are your own shipments insured, and is the cost included in the shipping price or charged separately?" | |
-| Q-C3 | Bank-transfer threshold (and how it applies to an order with several coins) | EUR 3,000 per coin | BR-ORD-004 · T-017 | "From which coin price should bank transfer be shown as the preferred way to pay? We suggest EUR 3,000." | |
-| Q-C4 | Bank-transfer reservation period | 5 days | BR-ORD-002 · T-017 | "How many days should a coin stay reserved while we wait for a bank transfer? We suggest 5." | |
-| Q-C5 | Checkout hold | 15 minutes | BR-ORD-008 · T-017 | "While a buyer is in checkout, how long should the coin be held for them before it is released? We suggest 15 minutes." | |
-| Q-C6 | Guest checkout | none | UC-PURCHASE-BY-CARD, UC-PURCHASE-BY-BANK-TRANSFER · T-017 | "Can a buyer purchase without creating an account, or must everyone register first?" | |
+| Q-C1 | Shipping countries, methods and rates | none | BR-ORD-006, BR-ORD-010 · T-017, T-019 | "Which countries do you ship to, and what do you charge for shipping to each?" | Closed. Royal Aurum ships free of charge and fully insured to Ireland and the 27 EU member states, no UK, Switzerland or Norway; shipping and insurance are included in the coin price; shipping methods are the Client's operational matter (WhatsApp, 15 Oct 2026; BR-ORD-006, BR-ORD-010 in CHG-SHOP-RULES-2). |
+| Q-C2 | Insurance of own shipments | none | BR-ORD-006 · T-019 | "Are your own shipments insured, and is the cost included in the shipping price or charged separately?" | Closed. Fully insured; the cost is included in the coin price, nothing is charged separately (WhatsApp, 15 Oct 2026; BR-ORD-006). |
+| Q-C3 | Bank-transfer threshold (and how it applies to an order with several coins) | EUR 3,000 per coin | BR-ORD-004 · T-017 | "From which coin price should bank transfer be shown as the preferred way to pay? We suggest EUR 3,000." | Closed. No threshold: card and bank transfer are both offered for every coin; bank transfer is presented as recommended for higher-value purchases, never mandatory (WhatsApp, 15 Oct 2026; BR-ORD-004). |
+| Q-C4 | Bank-transfer reservation period | 5 days | BR-ORD-002 · T-017 | "How many days should a coin stay reserved while we wait for a bank transfer? We suggest 5." | Closed. 5 days, as the default of the setting the Client can change (WhatsApp, 15 Oct 2026; BR-ORD-002). |
+| Q-C5 | Checkout hold | 15 minutes | BR-ORD-008 · T-017 | "While a buyer is in checkout, how long should the coin be held for them before it is released? We suggest 15 minutes." | Closed. 15 minutes (WhatsApp, 15 Oct 2026; BR-ORD-008). |
+| Q-C6 | Guest checkout | none | UC-PURCHASE-BY-CARD, UC-PURCHASE-BY-BANK-TRANSFER · T-017 | "Can a buyer purchase without creating an account, or must everyone register first?" | Closed. Guest checkout, with the option to create an account afterwards (WhatsApp, 15 Oct 2026; UC-PURCHASE-BY-CARD, UC-PURCHASE-BY-BANK-TRANSFER). |
 | Q-C7 | Returns of own coins | none | Returns page · T-013 | "How many days do customers have to return a coin bought from you, and under what conditions?" | |
 | Q-C8 | How VAT is reflected in prices | none | BR-PRC-001, BR-PRC-002, BR-ORD-006 · T-019 | "Should prices be shown as including VAT, under the margin scheme, or VAT-exempt as investment gold? Please check with your accountant." | Closed. Prices shown are final; each coin carries a VAT treatment (investment-gold exemption, margin scheme or standard VAT) set by the Client per coin, recorded on the order and shown on the coin page and the order confirmation; no VAT added at checkout; the list of treatments is extendable by the Client (WhatsApp, 15 Oct 2026; CHG-SHOP-RULES-2). |
 | Q-C9 | Texts for About, Contact, FAQ | none | FR-PAGES-001 · T-013 (not blocking; placeholders until received) | "Please send the About text, the contact details to show on the site, and 5 to 10 FAQ questions with answers." | |
@@ -53,7 +53,7 @@ The answers of 15 Oct 2026 are carried into the definition by CHG-SHOP-RULES-2.
 | Q-C21 | Default commission | none | BR-MP-008 | "What default commission percentage do you take on Marketplace sales?" | |
 | Q-C22 | Length of the confirmation period | see note | BR-MP-014, BR-MP-006 | "A seller is paid when the buyer confirms delivery. If the buyer says nothing, the seller is paid automatically after a number of days, unless you cancel the order first. How many days should the site wait? We propose to count them from the day the seller marks the coin as shipped." | Closed. 7 calendar days counted from confirmed delivery; during them the buyer can report a problem (not authentic, damaged, not as described) or request a return, which holds the payout and notifies the Client, who resolves with a refund or a release; no buyer-seller messaging; with no open problem the payout is automatic after the 7 days, net of commission (WhatsApp, 15 Oct 2026; drafts in CHG-SHOP-RULES-2 pending Răzvan's confirmation). |
 | Q-C23 | What buyers see about a seller | "Offered by a Royal Aurum seller" | BR-MP-009 | "Should buyers see any seller information, or only a note that the coin is offered by a Royal Aurum seller?" | |
-| Q-C24 | Insurance of Marketplace shipments | none | BR-MP-012 | "On a Marketplace sale, who insures the shipment: the seller or Royal Aurum?" | |
+| Q-C24 | Insurance of Marketplace shipments | none | BR-MP-012 | "On a Marketplace sale, who insures the shipment: the seller or Royal Aurum?" | Draft answer: each seller sets the shipping charge and the insurance arrangement per listing, shown to the buyer before payment (WhatsApp, 15 Oct 2026; BR-MP-018 draft). Open until the Client confirms the marketplace rules by email. |
 | Q-C25 | Returns of Marketplace coins | none | BR-MP-007 | "Can a buyer return a Marketplace coin? If yes, under the same rules as for your own coins?" | |
 | Q-C26 | Marketplace legal texts | none | Phase 2 go-live | "Please send the seller terms and the buyer terms for the Marketplace, reviewed by your solicitor." | |
 | Q-C27 | Who bears the Payment Provider's fees | none | BR-MP-008 | "On a Marketplace sale, who should bear the payment provider's fees: you (out of your commission), the seller (deducted from the payout), or the buyer (added to the price)?" | |
@@ -63,6 +63,7 @@ The answers of 15 Oct 2026 are carried into the definition by CHG-SHOP-RULES-2.
 | Q-C36 | A new offer after an automatic rejection | none | BR-OFR-003 | "When an offer is rejected automatically because it is too low, can the same buyer make another offer straight away?" | |
 | Q-C37 | Returns for any reason, or only for the three problem reasons | none | BR-MP-017 · Phase 2 | "During the 7 days after delivery, can a buyer return a Marketplace coin for any reason, or only when it is not authentic, damaged or not as described?" | |
 | Q-C38 | Automatic delivery confirmation after N days of shipment | none | BR-MP-016, BR-MP-014 · Phase 2 | "If neither the buyer nor you confirm delivery, should the site treat the coin as delivered a number of days after the seller marked it shipped? If so, after how many days?" | |
+| Q-C39 | Commission on the seller's shipping charge | none | BR-MP-018, BR-MP-008 · Phase 2 | "When a seller charges for shipping, is your commission calculated on the coin price only, or on the coin price plus the shipping charge?" | |
 
 Note on Q-C22: the Client's answer of 15 Oct 2026 counts the period from confirmed delivery,
 not from shipment, which removes the earlier concern that 7 days from shipment could end before

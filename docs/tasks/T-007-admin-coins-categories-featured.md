@@ -42,10 +42,13 @@ them, manages categories and chooses the homepage's featured coins.
 ## Scope
 
 - The administration panel's frame: layout, navigation, administrators-only access.
-- Coins: list, create, edit every field of BR-CAT-002 except photographs, publish, unpublish.
+- Coins: list, create, edit every field of BR-CAT-002 except photographs, including the VAT
+  treatment chosen from the Client's list and the two weights (total weight in grams, fine
+  gold content in troy ounces), publish, unpublish.
   The actions "mark as sold" and "archive" exist and change the coin's state; what the public
   sees of sold and archived coins is T-010.
 - Categories: list, add, rename.
+- VAT treatments: list, add, rename; the list the Client maintains (BR-PRC-002).
 - Featured selection: choose which coins the homepage features. (Showing them is T-009.)
 - The administration API for all of the above, administrators only.
 
@@ -65,6 +68,10 @@ homepage (T-009). Visual design beyond a clean, usable panel.
 4. Every value an administrator can change is changed in the panel, with no deployment
    (CON-OPS-001).
 5. The panel is usable at phone width.
+6. A VAT treatment added in the panel can be chosen for a coin and appears on the coin's public
+   page; a coin cannot be published without one (BR-PRC-002).
+7. The two weights are entered in their recorded units and the panel shows the derived unit
+   next to each (BR-CAT-002).
 
 ## Engineering notes
 
