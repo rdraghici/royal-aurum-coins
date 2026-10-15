@@ -22,7 +22,7 @@ A buyer pays for one of Royal Aurum's own coins by card, through the payment int
 ## Product rules
 
 <!-- product-rules:start -->
-- **UC-PURCHASE-BY-CARD** Buy a coin by card _(draft)_ <!-- pdac:cite id="UC-PURCHASE-BY-CARD" digest="sha256:54257c4ecd9e56c3b283c7b34aabefd54d1147a62a1ee8a20d3f3ccd35770fc1" -->
+- **UC-PURCHASE-BY-CARD** Buy a coin by card <!-- pdac:cite id="UC-PURCHASE-BY-CARD" digest="sha256:aadfa3555373af9a6f22e4f19a170301b5542d54f0871f2b95c7bc4177af788a" -->
 - **BR-ORD-001** Payment methods for Royal Aurum's own coins <!-- pdac:cite id="BR-ORD-001" digest="sha256:e3f1571dc9ac1bb5976bc228e832d4cb88ba00ea406d36e53df5d443d6b6985c" -->
 - **CON-PAY-001** All payment operations go through one internal interface <!-- pdac:cite id="CON-PAY-001" digest="sha256:7440d14b54c1c6d3792897c4fd4ff8f769e7f1cd8b022a41485ec2da25ef4472" -->
 - **CON-SEC-001** Secure development baseline <!-- pdac:cite id="CON-SEC-001" digest="sha256:4be327dea0ee6034dedf8fb59f785a98d823bbdceceae740eac87bd22b38b377" -->

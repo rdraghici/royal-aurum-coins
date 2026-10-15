@@ -22,8 +22,8 @@ Checkout applies the shipping zones, rates and tax treatment the Client has inst
 ## Product rules
 
 <!-- product-rules:start -->
-- **BR-ORD-006** Shipping and tax follow the Client's instructions <!-- pdac:cite id="BR-ORD-006" digest="sha256:5a2fdaaedc4e8dff760083c47bef05f76a46089fbca3659517db11a86f2a7ba0" -->
-- **BR-PRC-001** One price per coin, in euro <!-- pdac:cite id="BR-PRC-001" digest="sha256:650e2f252d067d8705359562f77329b2064d88bd7e1b06bfe990f6c17db5512f" -->
+- **BR-ORD-006** Shipping and tax follow the Client's instructions <!-- pdac:cite id="BR-ORD-006" digest="sha256:43a30d110b531e59e29e77872fbeec020165fb15c9213921b0096d7c63ab4c98" -->
+- **BR-PRC-001** One price per coin, in euro <!-- pdac:cite id="BR-PRC-001" digest="sha256:b626906df4b4a15f057bb6e47c345a4586f659e58d23fbfc93cd4564677a85a0" -->
 - **CON-OPS-001** The Client runs the Platform without technical assistance <!-- pdac:cite id="CON-OPS-001" digest="sha256:d0f77eaede141c0c8ca1ebb4e7f32e738ff89cd6cf5fefe0999c2995f4f76612" -->
 - **CON-LOCALE-001** English only, prices in euro only <!-- pdac:cite id="CON-LOCALE-001" digest="sha256:c0b15034ff16df0316b5de997093ff6010a9f2cc004515b18a8d758effa648db" -->
 <!-- product-rules:end -->

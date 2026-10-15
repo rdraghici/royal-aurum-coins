@@ -2,14 +2,14 @@
 id: BR-ORD-008
 type: business-rule
 title: "A coin in checkout is held briefly"
-status: draft
+status: active
 applies-to:
   - BC-ORDERS
 uses-terms:
   - TERM-RESERVATION
 provenance:
-  source: "Provider's proposal of 6 Oct 2026, not confirmed by the Client"
-  confidence: low
+  source: "Client's decision by WhatsApp, 15 Oct 2026 (question Q-C5), confirming the Provider's proposal of 6 Oct 2026"
+  confidence: high
   recovered-from: documentation
 ---
 
@@ -24,9 +24,9 @@ With a stock of one, two buyers must not be able to pay for the same coin at the
 
 ## Examples
 
-Two visitors open the same coin. The first starts checkout; the second cannot check out with it until the hold ends or the first leaves.
+Two visitors open the same coin. The first starts checkout; the second cannot check out with it
+until the hold ends or the first leaves.
 
 ## Exceptions
 
-The length of the hold is not confirmed (question Q-C5).
-
+None.

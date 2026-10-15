@@ -23,9 +23,9 @@ them, manages categories and chooses the homepage's featured coins.
 ## Product rules
 
 <!-- product-rules:start -->
-- **UC-MANAGE-CATALOGUE** Manage coins, categories and the featured selection <!-- pdac:cite id="UC-MANAGE-CATALOGUE" digest="sha256:dbeec357c3bba66b94fdc5c2c5afb6540e53b2158d50780ba7a339e938087cd7" -->
+- **UC-MANAGE-CATALOGUE** Manage coins, categories and the featured selection <!-- pdac:cite id="UC-MANAGE-CATALOGUE" digest="sha256:59b5f78091e9d434422496ba60ae44de9102d3eb7a4d067c70d6dbb7c7b074e0" -->
 - **FR-ADM-001** Administration panel <!-- pdac:cite id="FR-ADM-001" digest="sha256:0964f28bfb82bbed8fa734d25f662729524a50b9c8affa6d6a8f36ef3f3bac8f" -->
-- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:514740dd3368e4840b2e3edabfee217436fe9dca9fc5973c1d9350e689d09ae4" -->
+- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:afe171bec2c0847a8f6fb4ee441dbc0db53bc59d788e1d6be9a4d6a1f53434ef" -->
 - **BR-CAT-003** Categories of the BUY section <!-- pdac:cite id="BR-CAT-003" digest="sha256:d72b41c5d521dd77720f56a196134a55d49b67b0c0245e3b96e11a5894ff6552" -->
 - **BR-CAT-005** Only published coins are public <!-- pdac:cite id="BR-CAT-005" digest="sha256:81ea45fd38bb1226027cc0bc917113c788cb0ec983740c358ca388feb2147e38" -->
 - **BR-CAT-006** The Client chooses the homepage featured coins <!-- pdac:cite id="BR-CAT-006" digest="sha256:ae31d70de94a754247c2282975d55e82f6f8834e98e28649693370ba94f30b7b" -->

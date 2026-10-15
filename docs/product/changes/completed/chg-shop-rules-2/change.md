@@ -2,7 +2,7 @@
 id: CHG-SHOP-RULES-2
 type: product-change
 title: 'Shop rules from the Client''s decisions of 15 Oct 2026'
-status: draft
+status: applied
 base-revision: '81c7004aac6a6ad6a2662ef12236faf15b1655a8'
 operations:
   add:

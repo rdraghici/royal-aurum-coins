@@ -1,26 +1,28 @@
 ---
 id: SB-BANK-TRANSFER-PREFERRED-FOR-HIGH-VALUE
 type: structured-behaviour
-title: "Bank transfer is preferred above the Client's threshold"
+title: "Bank transfer is recommended for higher-value purchases, and both methods are always offered"
 status: active
 illustrates:
   - BR-ORD-004
 given:
-  - "A coin's price is at or above the bank-transfer threshold supplied by the Client"
-when: "A buyer reaches the choice of payment method for that coin"
+  - "A buyer has a coin of any price in checkout"
+when: "The buyer reaches the choice of payment method"
 then:
-  - "Bank transfer is presented as the preferred option"
+  - "Card and bank transfer are both offered"
+  - "Bank transfer is marked as the recommended option for higher-value purchases"
+  - "The buyer can choose either method"
 provenance:
-  source: "Agreement RAC-2026-01 v3 (signed 8 Oct 2026), Clause 7.10 and Schedule 4 (4.1(g))"
+  source: "Agreement RAC-2026-01 v3 (signed 8 Oct 2026), Clause 7.10 and Schedule 4 (4.1(g)); Client's decision by WhatsApp, 15 Oct 2026 (question Q-C3)"
   confidence: high
   recovered-from: documentation
 ---
 
 ## Intent
 
-Higher-value purchases are steered towards bank transfer.
+Higher-value purchases are steered towards bank transfer without ever refusing a card.
 
 ## Boundaries
 
-Does not assert that card payment is unavailable at or above the threshold, nor the threshold's value, nor how an order holding several coins is treated.
-
+Does not assert a price threshold: there is none. Does not assert the wording of the
+recommendation.

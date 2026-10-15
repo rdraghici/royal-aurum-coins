@@ -23,7 +23,7 @@ Search engines can find and present every published coin, and the Client can edi
 
 <!-- product-rules:start -->
 - **FR-SEO-001** SEO and technical foundations <!-- pdac:cite id="FR-SEO-001" digest="sha256:069f81a1fcbe67780687c7f56d2106c91f25e3efdeb2f469da3b992c878f18a6" -->
-- **UC-VIEW-COIN** View a coin <!-- pdac:cite id="UC-VIEW-COIN" digest="sha256:583f36e3263c6b3ce1b888dc2a7ffa3c758164614e8e5516ece2fbd604052ced" -->
+- **UC-VIEW-COIN** View a coin <!-- pdac:cite id="UC-VIEW-COIN" digest="sha256:976348dbe7ade942d08a21b0ae9a0604b6cd676cb9ff4f03ba3151f988a9b2b3" -->
 - **UC-BROWSE-CATALOGUE** Browse the BUY section <!-- pdac:cite id="UC-BROWSE-CATALOGUE" digest="sha256:0602793053c339add30558079c11056deee901f03d089d25e04c4d5c0c337c72" -->
 - **SB-COIN-PAGE-HAS-PRODUCT-STRUCTURED-DATA** A coin page carries Product structured data <!-- pdac:cite id="SB-COIN-PAGE-HAS-PRODUCT-STRUCTURED-DATA" digest="sha256:5527a4a8b71c025682c33f39675664d77f36f45cda579949440877e702a1e526" -->
 <!-- product-rules:end -->
