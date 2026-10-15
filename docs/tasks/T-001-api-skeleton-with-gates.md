@@ -2,7 +2,7 @@
 id: T-001
 title: "API skeleton with quality gates"
 phase: 1
-status: todo
+status: done
 spec: ready
 mode: supervised
 review: strict
