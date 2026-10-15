@@ -10,7 +10,7 @@ covers: ["S4.2"]
 cites: [BR-CAT-002, BR-CAT-003, CON-OPS-001]
 behaviours: []
 depends-on: [T-007, T-008]
-blocked-by: [Q-R7, Q-C11, Q-R14]
+blocked-by: [Q-R7, Q-C11]
 ---
 
 # T-025 — Launch catalogue import
@@ -22,7 +22,7 @@ The Client's launch coins are loaded from the agreed spreadsheet instead of bein
 ## Product rules
 
 <!-- product-rules:start -->
-- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:514740dd3368e4840b2e3edabfee217436fe9dca9fc5973c1d9350e689d09ae4" -->
+- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:afe171bec2c0847a8f6fb4ee441dbc0db53bc59d788e1d6be9a4d6a1f53434ef" -->
 - **BR-CAT-003** Categories of the BUY section <!-- pdac:cite id="BR-CAT-003" digest="sha256:d72b41c5d521dd77720f56a196134a55d49b67b0c0245e3b96e11a5894ff6552" -->
 - **CON-OPS-001** The Client runs the Platform without technical assistance <!-- pdac:cite id="CON-OPS-001" digest="sha256:d0f77eaede141c0c8ca1ebb4e7f32e738ff89cd6cf5fefe0999c2995f4f76612" -->
 <!-- product-rules:end -->

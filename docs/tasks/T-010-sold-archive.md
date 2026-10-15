@@ -22,10 +22,10 @@ Sold coins remain visible in the Sold Archive, marked Sold, and can never be bou
 ## Product rules
 
 <!-- product-rules:start -->
-- **UC-VIEW-SOLD-ARCHIVE** Look through the Sold Archive <!-- pdac:cite id="UC-VIEW-SOLD-ARCHIVE" digest="sha256:20c7dd55c18c8504f57530e3449d97387407a6c55546b69ccc3c9ce6db2b6891" -->
-- **BR-CAT-004** Sold coins are shown in the Sold Archive and cannot be bought <!-- pdac:cite id="BR-CAT-004" digest="sha256:119ae814422ab5d5f46f77ce30cc580a3c0f83d419c98572cd70bba2488715ef" -->
+- **UC-VIEW-SOLD-ARCHIVE** Look through the Sold Archive <!-- pdac:cite id="UC-VIEW-SOLD-ARCHIVE" digest="sha256:656ee527edf582fed05dab6b553d5dc2dc49c2e620e510bdec272edcb5596b3b" -->
+- **BR-CAT-004** Sold coins are shown in the Sold Archive and cannot be bought <!-- pdac:cite id="BR-CAT-004" digest="sha256:f4181658a4eb475d495a56a894e398d9ed3c80bd3fdcdfe208d03537216c9f69" -->
 - **BR-CAT-001** Each coin is a unique item with a stock of one <!-- pdac:cite id="BR-CAT-001" digest="sha256:7c04595c7868c98b0e44489b4519c027d3408abca67f34cf5816eef16f77a79d" -->
-- **SB-SOLD-COIN-SHOWN-AS-SOLD** A coin in the Sold Archive is labelled Sold and cannot be bought <!-- pdac:cite id="SB-SOLD-COIN-SHOWN-AS-SOLD" digest="sha256:241b867416401bc0aa6490da594e5450b6ee4e158356acff5d09313a470cf6d4" -->
+- **SB-SOLD-COIN-SHOWN-AS-SOLD** A coin in the Sold Archive is labelled Sold, without its price, and cannot be bought <!-- pdac:cite id="SB-SOLD-COIN-SHOWN-AS-SOLD" digest="sha256:11c79cff9e8e894d364f2ead2d136c251da07e8e2eeb6e8436e01acb3cc1180d" -->
 <!-- product-rules:end -->
 
 ## Scope

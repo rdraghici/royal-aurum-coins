@@ -10,9 +10,9 @@ the product definition; it never restates a rule.
 | [T-001](T-001-api-skeleton-with-gates.md) | API skeleton with quality gates | ready | supervised | strict | — | — |
 | [T-002](T-002-web-skeleton-with-gates.md) | Web skeleton with quality gates | ready | supervised | standard | T-001 | — |
 | [T-003](T-003-local-stack-and-ci.md) | Local stack and continuous integration | ready | supervised | standard | T-001, T-002 | — |
-| [T-004](T-004-public-catalogue-golden-slice.md) | Public catalogue: the reference slice | ready | supervised | strict | T-001, T-002, T-003 | Q-R14, Q-R19 |
+| [T-004](T-004-public-catalogue-golden-slice.md) | Public catalogue: the reference slice | ready | supervised | strict | T-001, T-002, T-003 | — |
 | [T-005](T-005-newsletter-signup-double-opt-in.md) | Newsletter signup with double opt-in | ready | delegate | standard | T-004 | — |
-| [T-006](T-006-accounts-and-roles.md) | Accounts: registration, sign in, password reset, roles | ready | delegate | strict | T-004 | Q-R21 |
+| [T-006](T-006-accounts-and-roles.md) | Accounts: registration, sign in, password reset, roles | ready | delegate | strict | T-004 | — |
 | [T-007](T-007-admin-coins-categories-featured.md) | Administration: coins, categories and the featured selection | ready | delegate | standard | T-004, T-006 | — |
 | [T-008](T-008-coin-photographs.md) | Coin photographs: upload, storage, gallery with zoom | outline | delegate | standard | T-007 | — |
 | [T-009](T-009-homepage-featured-selection.md) | Homepage with the featured selection | outline | delegate | standard | T-007 | — |
@@ -31,7 +31,7 @@ the product definition; it never restates a rule.
 | [T-022](T-022-subscribers-and-email-service.md) | Subscribers: management, export and the Client's email service | outline | delegate | standard | T-005, T-007 | Q-C13 |
 | [T-023](T-023-apply-final-design.md) | Apply the final design | outline | supervised | standard | T-009, T-013 | Q-C29, Q-A6 |
 | [T-024](T-024-staging-and-production.md) | Staging and production environments | outline | supervised | strict | T-003 | Q-R5 |
-| [T-025](T-025-launch-catalogue-import.md) | Launch catalogue import | outline | delegate | standard | T-007, T-008 | Q-R7, Q-C11, Q-R14 |
+| [T-025](T-025-launch-catalogue-import.md) | Launch catalogue import | outline | delegate | standard | T-007, T-008 | Q-R7, Q-C11 |
 | [T-026](T-026-phase-1-documentation.md) | Phase 1 documentation and administration guide | outline | delegate | standard | T-024 | — |
 | [T-027](T-027-phase-1-go-live.md) | Phase 1 go-live | outline | supervised | strict | T-024, T-018, T-020, T-023 | Q-C18, Q-C20, Q-C10, Q-R10 |
 

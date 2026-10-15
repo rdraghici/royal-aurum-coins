@@ -23,9 +23,9 @@ them, manages categories and chooses the homepage's featured coins.
 ## Product rules
 
 <!-- product-rules:start -->
-- **UC-MANAGE-CATALOGUE** Manage coins, categories and the featured selection <!-- pdac:cite id="UC-MANAGE-CATALOGUE" digest="sha256:dbeec357c3bba66b94fdc5c2c5afb6540e53b2158d50780ba7a339e938087cd7" -->
+- **UC-MANAGE-CATALOGUE** Manage coins, categories and the featured selection <!-- pdac:cite id="UC-MANAGE-CATALOGUE" digest="sha256:59b5f78091e9d434422496ba60ae44de9102d3eb7a4d067c70d6dbb7c7b074e0" -->
 - **FR-ADM-001** Administration panel <!-- pdac:cite id="FR-ADM-001" digest="sha256:0964f28bfb82bbed8fa734d25f662729524a50b9c8affa6d6a8f36ef3f3bac8f" -->
-- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:514740dd3368e4840b2e3edabfee217436fe9dca9fc5973c1d9350e689d09ae4" -->
+- **BR-CAT-002** What a coin record contains <!-- pdac:cite id="BR-CAT-002" digest="sha256:afe171bec2c0847a8f6fb4ee441dbc0db53bc59d788e1d6be9a4d6a1f53434ef" -->
 - **BR-CAT-003** Categories of the BUY section <!-- pdac:cite id="BR-CAT-003" digest="sha256:d72b41c5d521dd77720f56a196134a55d49b67b0c0245e3b96e11a5894ff6552" -->
 - **BR-CAT-005** Only published coins are public <!-- pdac:cite id="BR-CAT-005" digest="sha256:81ea45fd38bb1226027cc0bc917113c788cb0ec983740c358ca388feb2147e38" -->
 - **BR-CAT-006** The Client chooses the homepage featured coins <!-- pdac:cite id="BR-CAT-006" digest="sha256:ae31d70de94a754247c2282975d55e82f6f8834e98e28649693370ba94f30b7b" -->
@@ -42,10 +42,13 @@ them, manages categories and chooses the homepage's featured coins.
 ## Scope
 
 - The administration panel's frame: layout, navigation, administrators-only access.
-- Coins: list, create, edit every field of BR-CAT-002 except photographs, publish, unpublish.
+- Coins: list, create, edit every field of BR-CAT-002 except photographs, including the VAT
+  treatment chosen from the Client's list and the two weights (total weight in grams, fine
+  gold content in troy ounces), publish, unpublish.
   The actions "mark as sold" and "archive" exist and change the coin's state; what the public
   sees of sold and archived coins is T-010.
 - Categories: list, add, rename.
+- VAT treatments: list, add, rename; the list the Client maintains (BR-PRC-002).
 - Featured selection: choose which coins the homepage features. (Showing them is T-009.)
 - The administration API for all of the above, administrators only.
 
@@ -65,6 +68,10 @@ homepage (T-009). Visual design beyond a clean, usable panel.
 4. Every value an administrator can change is changed in the panel, with no deployment
    (CON-OPS-001).
 5. The panel is usable at phone width.
+6. A VAT treatment added in the panel can be chosen for a coin and appears on the coin's public
+   page; a coin cannot be published without one (BR-PRC-002).
+7. The two weights are entered in their recorded units and the panel shows the derived unit
+   next to each (BR-CAT-002).
 
 ## Engineering notes
 

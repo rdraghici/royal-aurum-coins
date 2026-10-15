@@ -28,6 +28,5 @@ The Client sets a coin at EUR 4,850. Every visitor sees EUR 4,850.
 ## Exceptions
 
 In Phase 2, Make an Offer lets one buyer purchase at an agreed lower price (BR-OFR-001), and
-the price of a Marketplace listing is set by its seller. How VAT is reflected in displayed
-prices follows the Client's instructions and is not yet decided (question Q-C8).
-
+the price of a Marketplace listing is set by its seller. The price is final and carries a VAT
+treatment that never alters it (BR-PRC-002).

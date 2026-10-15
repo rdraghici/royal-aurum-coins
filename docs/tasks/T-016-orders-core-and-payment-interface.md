@@ -24,7 +24,7 @@ The foundation of selling: an order with a lifecycle, a coin that can be reserve
 <!-- product-rules:start -->
 - **CON-PAY-001** All payment operations go through one internal interface <!-- pdac:cite id="CON-PAY-001" digest="sha256:7440d14b54c1c6d3792897c4fd4ff8f769e7f1cd8b022a41485ec2da25ef4472" -->
 - **BR-CAT-001** Each coin is a unique item with a stock of one <!-- pdac:cite id="BR-CAT-001" digest="sha256:7c04595c7868c98b0e44489b4519c027d3408abca67f34cf5816eef16f77a79d" -->
-- **BR-ORD-002** A bank-transfer order reserves the coin, and an unpaid reservation is released <!-- pdac:cite id="BR-ORD-002" digest="sha256:ef3cf02cb709dfa3c3e3cf8bc3db61fa3db328a851baa933391b1d3a589cc4a8" -->
+- **BR-ORD-002** A bank-transfer order reserves the coin, and an unpaid reservation is released <!-- pdac:cite id="BR-ORD-002" digest="sha256:20c26d21e646b2573fdb99e1c35cea8904433e2cbb1209bbd43707b5c76d9af6" -->
 - **BR-ORD-009** Order statuses for Royal Aurum's own coins _(draft)_ <!-- pdac:cite id="BR-ORD-009" digest="sha256:ede0805736c391d10197558b111d8dae1b0e4d2f539a0f01e9d06da903829621" -->
 - **UC-RELEASE-UNPAID-RESERVATION** Release an unpaid reservation <!-- pdac:cite id="UC-RELEASE-UNPAID-RESERVATION" digest="sha256:46ea115837d8336d25951d981ab1fe02aada8b678359850c476645a32c94568e" -->
 - **CON-SEC-001** Secure development baseline <!-- pdac:cite id="CON-SEC-001" digest="sha256:4be327dea0ee6034dedf8fb59f785a98d823bbdceceae740eac87bd22b38b377" -->
